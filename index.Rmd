@@ -1,0 +1,115 @@
+---
+title: "Programas Académicos UNAL"
+subtitle: "Consejo Superior Universitario - CSU"
+author: "<br/><br/><br/>Dirección Nacional de Planeación y Estadística"
+institute: "Universidad Nacional de Colombia"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+    includes:
+      after_body: libs/unal/html/scripts.html
+      in_header: libs/unal/html/style.html      
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE,  htmltools.preserve.raw = FALSE)
+```
+
+
+```{r xaringan-panelset, echo=FALSE}
+xaringanExtra::use_panelset()
+```
+
+```{r xaringan-logo, echo=FALSE}
+xaringanExtra::use_logo(
+  image_url = "https://raw.githubusercontent.com/estadisticaun/TendenciasCSU/master/Imagenes/LOGOSIMBOLO%20LATERAL.png", width = "115px",
+  height = "133px")
+```
+
+
+
+<!-- ```{r xaringan-logo, echo=FALSE} -->
+<!-- xaringanExtra::use_logo( -->
+<!--   image_url = "https://www.cemarin.org/wp-content/uploads/2017/09/PNG_LOGOSIMBOLO-CENTRAL-2-COLORES-VERDE-Y-GRIS-02-268x300.png", width = "85px", -->
+<!--   height = "103px") -->
+<!-- ``` -->
+
+
+<!-- ```{r xaringan-logo, echo=FALSE} -->
+<!--  xaringanExtra::use_logo( -->
+<!--    image_url = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Logotipo_de_la_Universidad_Nacional_de_Colombia.svg/1200px-Logotipo_de_la_Universidad_Nacional_de_Colombia.svg.png", width = "85px", -->
+<!-- height = "103px") -->
+<!-- ``` -->
+
+
+
+<!-- # Objetivo de la presentación -->
+
+<!-- <p align="justify"> Presentar, a través de la disposición de las principales tendencias estadísticas de la Universidad, una aproximación descriptiva al estado actual institucional de aspectos centrales como la evolución histórica de las principales cifras institucionales; la equidad, la inclusión y el bienestar; la calidad de la educación; los productos, resultados e impactos existentes a nivel institucional, así como el posicionamiento en rankings nacionales e internacionales.  -->
+
+<!-- --- -->
+
+## Consideraciones para el uso adecuado de la presentación
+
+  1.	<p style="font-size:100%  align="justify";> Dar click en la letra <b>H</b> o en el símbolo <b>?</b> para desplegar las distintas <b>opciones de navegación</b> que ofrece la presentación.</p>
+  
+  2.	<p style="font-size:100%  align="justify";> La opción <b>“Pantalla Completa”</b> presenta <b>problemas</b> en los <b>dispositivos móviles Iphone.</b></p>
+  
+  3.	<p style="font-size:100%  align="justify";> Si uno o más objetos gráficos presentan algún grado de desconfiguración/deformación, recargar las presentación dando click en la tecla  <b>F5</b> si nos encontramos en un PC o directamente desde la barra del navegador.</p>
+  
+  4.	<p style="font-size:100%"  align="justify";> La totalidad de gráficos interactivos tienen la opción de ser vistos en <b>pantalla completa</b> (full screen). Para hacer uso de esta opción, ir a la parte baja de cada gráfico o a los íconos ubicados en la parte superior derecha o izquierda de los mismos. Para salir de la opción pantalla completa, dar click en la tecla <b>ESC</b>.</p>
+  
+  5.	<p style="font-size:100%"  align="justify";> Buena parte de los gráficos contenidos en las distintas diapositivas pueden ser <b>“manipulados”</b> al hacer <b>click</b> en las distintas <b>opciones/etiquetas</b> que los acompañan.</p>
+
+---
+
+## Sistema Estadístico de la UNAL
+
+<p align="justify"> Las estadísticas/indicadores contenidos en esta presentación hacen parte, en una importante proporción, de las cifras contenidas en la página web de [estadísticas](http://estadisticas.unal.edu.co/home/) de la Universidad Nacional de Colombia. En esta página, se puede consultar información oficial, histórica, actual y desagregada por sedes de las principales características asociadas a las poblaciones de aspirantes y admitidos, matriculados, graduados, docentes de carrera y administrativos, principalmente. Invitamos a los interesados a explorar la información allí contenida o a ingresar a los siguientes links (enlaces) en donde se dispone la información existente y disponible a nivel nacional y para cada una de las 9 sedes que conforman la Universidad.
+
+
+---
+
+# Contenido
+
+.pull-left[
+
+### [1. Tendencias Generales](https://estadisticaun.github.io/TendenciasCSU/#5)
+### [2. Equidad, inclusión y bienestar](https://estadisticaun.github.io/TendenciasCSU/#23)
+#### [2.1 Equidad de género](https://estadisticaun.github.io/TendenciasCSU/#24)
+#### [2.2 Equidad territorial](https://estadisticaun.github.io/TendenciasCSU/#35)
+#### [2.3 Inclusión](https://estadisticaun.github.io/TendenciasCSU/#44)
+#### [2.4 Bienestar Universitario](https://estadisticaun.github.io/TendenciasCSU/#65)
+
+]
+
+.pull-right[
+### [3. Calidad](https://estadisticaun.github.io/TendenciasCSU/#68)
+#### [3.1 Docentes](https://estadisticaun.github.io/TendenciasCSU/#69)
+#### [3.2  Resultados examen de admisión UNAL](https://estadisticaun.github.io/TendenciasCSU/#71)
+#### [3.3Resultados Saber Pro ](https://estadisticaun.github.io/TendenciasCSU/#80)
+### [4.Deserción y desvinculación en pregrado](https://estadisticaun.github.io/TendenciasCSU/#98)
+### [5. Rankings](https://estadisticaun.github.io/TendenciasCSU/#113)
+]
+
+---
+class: inverse, center, middle
+
+# Evolución de programas académicos por modalidad de formación
+
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/TendenciasCSU/Investigacion/Modalidad.html"></iframe>
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Vicerrectoría Académica</i></font> 
+
+---
+### Evolución de programas académicos de postgrado
+
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/TendenciasCSU/Investigacion/Postgrado.html"></iframe>
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Vicerrectoría Académica</i></font> 
+
